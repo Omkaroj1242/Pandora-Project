@@ -1,0 +1,15 @@
+div,
+input,
+label {
+  /* Styles for div, input, and label elements */
+  color: darkgray;
+  /* Add other styles as needed */
+}
+
+h1 {
+  color: whitesmoke;
+}
+
+h5 {
+  color: orange;
+}

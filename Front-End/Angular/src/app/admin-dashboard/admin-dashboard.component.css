@@ -1,0 +1,34 @@
+/* edit-password.component.css */
+
+.container {
+  background-color: #212529;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.btn-primary {
+  background-color: orangered;
+  border-color: orange;
+}
+
+.btn-primary:hover {
+  background-color: black;
+  border-color: whitesmoke;
+}
+
+.text-danger {
+  color: #dc3545;
+}
+.equal-height-img {
+  object-fit: cover;
+  height: 200px;
+  width: auto;
+}
+
+.material-icons {
+  font-size: 18px;
+  vertical-align: middle;
+  margin-right: 5px;
+}

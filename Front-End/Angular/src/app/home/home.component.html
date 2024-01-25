@@ -1,0 +1,28 @@
+<div class="container-fluid bg-white p-0">
+  <div class="container-fluid py-5 bg-dark hero-header mb-5">
+    <div class="container my-5 py-5">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6 text-center text-lg-start">
+          <h1 class="display-3" style="color: orangered">
+            "Relish Our <br />
+            Tasty Delights!"
+          </h1>
+          <p class="text-white mb-4 pb-2">
+            Savor the rich symphony of our culinary creations, embark on a
+            palate-pleasing odyssey that will dance on your taste buds, and
+            beckon you into a world where every bite is an invitation for more.
+          </p>
+          <a
+            routerLink="/user-login-register"
+            class="btn btn-primary py-sm-3 px-sm-5 me-3"
+            *ngIf="!(adminSession || userSession)"
+            >Sign in</a
+          >
+        </div>
+        <div class="col-lg-6 text-center text-lg-end overflow-hidden">
+          <img class="img-fluid" src="../assets/images/food.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

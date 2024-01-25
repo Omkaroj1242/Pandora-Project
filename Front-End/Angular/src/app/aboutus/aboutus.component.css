@@ -1,0 +1,13 @@
+div {
+  background-color: black;
+}
+
+.mb-5,
+b,
+h5 {
+  color: orange;
+}
+
+.mb-6 {
+  text-align: justify;
+}
